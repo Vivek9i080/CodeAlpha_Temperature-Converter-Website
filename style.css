@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background-color: lightseagreen; */
+  text-align: center;
+}
+body {
+  background-image: url("natures.jpg");
+}
+.container {
+  position: absolute;
+
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  position: absolute;
+
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container button {
+  background-color: blanchedalmond;
+  border-radius: 6px;
+  padding: auto;
+  margin: auto;
+  font-weight: 400;
+  cursor: pointer;
+}
+.container button:hover {
+  background-color: lightblue;
+  /* color:lightblue; */
+}
+
+.container input {
+  border-radius: 5px;
+  background-color: lightskyblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container select {
+  border-radius: 10px;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.container select:hover {
+  background-color: whitesmoke;
+}
+input[type="number"] {
+  color: white;
+  border: 1px solid black;
+  font-weight: light;
+}
+.container input:hover {
+  background-color: lightpink;
+}
+.container label {
+  font-weight: bold;
+  color: darkblue;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  color: royalblue;
+  font-weight: bolder;
+}
